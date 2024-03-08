@@ -1,0 +1,112 @@
+.Service-conatiner{
+  padding: 1rem 0 3rem 6rem;
+  background-color: rgb(214, 195, 195);
+}
+.Service-conatiner h2{
+  padding-bottom: 1.5rem;
+  text-decoration: underline 3px rgb(247, 8, 48);
+}
+.service-content{
+  display: flex;
+  gap: 3rem;
+}
+
+.service-item img {
+  width: 15rem;
+  height: 9rem;
+}
+.button-content{
+  display: flex;
+  position: absolute;
+  transform: translate(2.2%, -50%);
+}
+.button-content img{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgb(235, 184, 19) -40%,rgba(217, 18, 134, 1)100%);
+  padding: 2.5px;
+  transform: translateX(50%);
+}
+.button-content button{
+  border: none;
+  padding: 0 2rem;
+  font-weight: 750;
+}
+.button-content button:hover{
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(90deg, rgb(125, 125, 123) -40%,rgba(217, 18, 134, 1) 100%);;
+}
+.button-content > .btn-2{
+  padding: 0 2.15rem;
+}
+.button-content > .btn-3{
+  padding: 0 2.3rem;
+}
+
+@media (max-width: 1025px){
+  .Service-conatiner {
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+  }
+  .Service-conatiner h2{
+    font-weight: 650;
+    font-size: 2rem;
+  }
+  .service-content{
+    padding-left: 2rem;
+  }
+  .service-item img {
+    width: 15rem;
+    height: 9rem;
+  }
+  .button-content{
+    display: flex;
+    position: absolute;
+    transform: translate(-2%, -50%);
+  }
+  .button-content img{
+    width: 2rem;
+    height: 2rem;
+    padding: 2px;
+    transform: translateX(50%);
+  }
+  .button-content > button{
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 768px){
+  .Service-conatiner {
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+  }
+  .Service-conatiner h2{
+    font-size: 1.3rem;
+  }
+  .service-content{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .service-item img {
+    width: 12rem;
+    height: 7rem;
+  }
+  .button-content{
+    display: flex;
+    position: absolute;
+    transform: translate(-2%, -50%);
+  }
+  .button-content img{
+    width: 2rem;
+    height: 2rem;
+    padding: 2px;
+    transform: translateX(50%);
+  }
+  .button-content > button{
+    font-size: 0.7rem;
+  }
+}
+

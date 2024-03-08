@@ -1,0 +1,12 @@
+.footer{
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  background: linear-gradient(90deg, rgb(235, 184, 19) -40%,rgba(217, 18, 134, 1)100%);
+  padding: 1rem;
+  /* margin: 1rem 0; */
+}
+.footer-child{
+  font-size: 0.8rem;
+  text-align: center;
+}

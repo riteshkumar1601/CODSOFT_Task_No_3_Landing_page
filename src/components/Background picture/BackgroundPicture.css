@@ -1,0 +1,94 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.background-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:0  12.5%;
+  background-image:   url(../../../public/image/bgc-images.webp);
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.vl{
+  border-left: 6px solid rgba(245, 27, 154, 0.986) ;
+  height: 12rem;
+  position: absolute;
+  left: 11%;
+  border-radius: 5px;
+}
+
+.background-container h4{
+  font-size: 1.1rem;
+  letter-spacing: 0.5rem;
+  padding: 0.5rem  0;
+}
+.background-container h2{
+  font-size: 2rem;
+  word-spacing: 5px;
+  padding-bottom: 0.6rem;
+}
+.background-container p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+}
+.bgc-button {
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 12px;
+  margin-left: 0;
+  margin-right: 1rem;
+  background: linear-gradient(90deg, rgb(235, 184, 19) -40%,rgba(217, 18, 134, 0.865) 100%);
+}
+.bgc-button:hover{
+  cursor: pointer;
+  color: rgb(254, 21, 98);
+  background: white;
+}
+
+@media(max-width:1025px){
+  .background-container{
+    height: 30vh;
+  }
+}
+@media(max-width:768px){
+  .background-container{
+    height: 45vh;
+  }
+  .vl{
+    height: 13rem;
+    position: absolute;
+    left: 9%;
+    border-radius: 5px;
+  }
+  .background-container h4{
+    font-size: 0.8rem;
+    letter-spacing: 0.5rem;
+    padding: 0.4rem  0;
+  }
+  .background-container h2{
+    font-size: 1.5rem;
+    word-spacing: 5px;
+    padding-bottom: 0.5rem;
+  }
+  .background-container p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    padding-bottom: 0.5rem;
+  }
+  .bgc-button {
+    font-size: 0.6rem;
+    padding: 6px 12px;
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+}
+
